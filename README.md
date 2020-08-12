@@ -7,3 +7,30 @@ For more detail, please visit:
 ```
 mvn spring-boot:run
 ```
+
+-----------------------------------------
+
+### Create table
+
+         CREATE TABLE tutorial (
+              id UUID PRIMARY KEY, 
+              title text,
+              description text,
+              published text
+            );
+
+            SELECT * FROM edlapi.tutorial ;
+            
+            
+            
+            
+### create data into table 
+
+POST
+ 
+            http://localhost:8080/api/tutorials
+            
+            {
+             "title":"test1",
+              "description":"this is test cassabdra call"
+             }
