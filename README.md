@@ -16,7 +16,7 @@ mvn spring-boot:run
               id UUID PRIMARY KEY, 
               title text,
               description text,
-              published text
+              published Boolean
             );
 
             SELECT * FROM edlapi.tutorial ;
