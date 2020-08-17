@@ -55,13 +55,29 @@ Please also refer to your driver's documentation and pay attention to the defaul
 
 
 
+###  DCAwareRoundRobinPolicy
+
+A data-center aware Round-robin load balancing policy.
+This policy provides round-robin queries over the node of the local data center. It also includes in the query plans returned a configurable number of hosts in the remote data centers, but those are always tried after the local nodes. In other words, this policy guarantees that no host in a remote data center will be queried unless no host in the local data center can be reached.
+
+If used with a single data center, this policy is equivalent to the LoadBalancingPolicy.RoundRobin policy, but its DC awareness incurs a slight overhead so the LoadBalancingPolicy.RoundRobin policy could be preferred to this policy in that case.
+
+
 
 --------------------------------------------
 
+### Hbase Vs Cassandra
 
+ ![Alt Text](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS3pMZBImzqGSCeJV3-9ffwu2B156bBNv1_dw&usqp=CAU ) 
+
+- https://www.scnsoft.com/blog/cassandra-vs-hbase
+-------------------------------------------------
 
 
 - https://bezkoder.com/spring-boot-cassandra-crud
 - https://stackoverflow.com/questions/31513225/connecting-to-multi-node-cassandra-cluster-using-spring-data-cassandra
 - https://cassandra.apache.org/doc/latest/getting_started/index.html
 - https://docs.spring.io/spring-data/cassandra/docs/current/reference/html/#reference
+- https://github.com/spring-projects/spring-data-examples
+- https://docs.datastax.com/en/drivers/java/2.2/com/datastax/driver/core/policies/DCAwareRoundRobinPolicy.html
+- https://dzone.com/articles/bigtable-model-cassandra-and
