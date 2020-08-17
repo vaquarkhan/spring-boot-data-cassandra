@@ -112,3 +112,4 @@ If used with a single data center, this policy is equivalent to the LoadBalancin
 - https://docs.datastax.com/en/drivers/java/2.2/com/datastax/driver/core/policies/DCAwareRoundRobinPolicy.html
 - https://dzone.com/articles/bigtable-model-cassandra-and
 - https://medium.com/jorgeacetozi/cassandra-architecture-and-write-path-anatomy-51e339bcfe0c
+- https://intellipaat.com/blog/interview-question/cassandra-interview-questions/
