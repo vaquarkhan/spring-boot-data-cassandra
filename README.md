@@ -1,7 +1,5 @@
 # Spring Boot Cassandra CRUD example - Restful CRUD API
 
-For more detail, please visit:
-> [Spring Boot Cassandra CRUD example using Spring Data](https://bezkoder.com/spring-boot-cassandra-crud/)
 
 ## Run Spring Boot application
 ```
@@ -34,3 +32,10 @@ POST
              "title":"test1",
               "description":"this is test cassabdra call"
              }
+
+### multi cluster configuration
+
+- https://stackoverflow.com/questions/52123266/spring-boot-2-cassandra-multiple-keyspaces-or-clusters
+
+
+- https://bezkoder.com/spring-boot-cassandra-crud
