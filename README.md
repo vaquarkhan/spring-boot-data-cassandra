@@ -98,7 +98,9 @@ If used with a single data center, this policy is equivalent to the LoadBalancin
 | Consistency                    | Strong                                                                    | Not Strong as HBase                                      |
 |--------------------------------|:-------------------------------------------------------------------------:|:---------------------------------------------------------|
 
+### Data load 
 
+- https://github.com/vaquarkhan/Cassandra-with-Springboot-microservice-Spark-Hive-dataload
 
 
 -------------------------------------------------
