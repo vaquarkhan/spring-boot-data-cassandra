@@ -63,4 +63,5 @@ Please also refer to your driver's documentation and pay attention to the defaul
 
 - https://bezkoder.com/spring-boot-cassandra-crud
 - https://stackoverflow.com/questions/31513225/connecting-to-multi-node-cassandra-cluster-using-spring-data-cassandra
+- https://cassandra.apache.org/doc/latest/getting_started/index.html
 - https://docs.spring.io/spring-data/cassandra/docs/current/reference/html/#reference
