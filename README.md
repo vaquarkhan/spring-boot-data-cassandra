@@ -71,6 +71,8 @@ If used with a single data center, this policy is equivalent to the LoadBalancin
  ![Alt Text](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS3pMZBImzqGSCeJV3-9ffwu2B156bBNv1_dw&usqp=CAU ) 
 
 - https://www.scnsoft.com/blog/cassandra-vs-hbase
+- https://www.scitepress.org/Papers/2017/64388/64388.pdf
+- https://www.iflexion.com/blog/hbase-vs-cassandra
 -------------------------------------------------
 
 
